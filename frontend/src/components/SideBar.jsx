@@ -1,4 +1,4 @@
-import "./Sidebar.css";
+import "./SideBar.css";
 
 export default function Sidebar({ sessions, activeId, onSelect, onNew, suggestions, onSuggest }) {
   return (
