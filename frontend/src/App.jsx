@@ -1,11 +1,6 @@
 import { useState } from "react";
-<<<<<<< HEAD
 import Sidebar from "./components/SideBar.jsx";
 import Topbar from "./components/TopBar.jsx";
-=======
-import Sidebar from "./components/Sidebar.jsx";
-import Topbar from "./components/Topbar.jsx";
->>>>>>> 57b7174fa480d04641045edf8ed1053956176b51
 import ChatArea from "./components/ChatArea.jsx";
 import InputBar from "./components/InputBar.jsx";
 import "./App.css";
