@@ -1,0 +1,31 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg-primary: #070B14;
+  --bg-secondary: #0D1525;
+  --bg-card: #111827;
+  --bg-input: #0D1525;
+  --border: #1E2D45;
+  --border-bright: #2A3F5F;
+  --accent: #3B82F6;
+  --accent-glow: rgba(59, 130, 246, 0.15);
+  --green: #10B981;
+  --red: #EF4444;
+  --text-primary: #F1F5F9;
+  --text-secondary: #94A3B8;
+  --text-muted: #475569;
+  --mono: 'JetBrains Mono', monospace;
+  --sans: 'Inter', sans-serif;
+}
+
+html, body, #root {
+  height: 100%;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--sans);
+  overflow: hidden;
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }

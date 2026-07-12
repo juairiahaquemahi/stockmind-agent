@@ -1,0 +1,11 @@
+.input-area { padding: 16px 24px 20px; border-top: 1px solid var(--border); background: var(--bg-primary); }
+.input-wrapper { max-width: 780px; margin: 0 auto; }
+.input-box { display: flex; align-items: flex-end; gap: 10px; background: var(--bg-input); border: 1px solid var(--border-bright); border-radius: 12px; padding: 10px 14px; transition: border-color 0.2s, box-shadow 0.2s; }
+.input-box:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-glow); }
+textarea { flex: 1; background: transparent; border: none; outline: none; color: var(--text-primary); font-size: 14px; font-family: var(--sans); resize: none; line-height: 1.5; max-height: 120px; min-height: 22px; overflow-y: auto; }
+textarea::placeholder { color: var(--text-muted); }
+.send-btn { width: 34px; height: 34px; border-radius: 8px; background: var(--accent); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all 0.15s; flex-shrink: 0; }
+.send-btn:hover:not(:disabled) { background: #2563EB; transform: scale(1.05); }
+.send-btn:disabled { background: var(--border); cursor: not-allowed; }
+.send-btn svg { width: 15px; height: 15px; }
+.input-hint { text-align: center; font-size: 11px; color: var(--text-muted); margin-top: 8px; font-family: var(--mono); }
