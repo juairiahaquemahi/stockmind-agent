@@ -34,6 +34,9 @@ res.json(result);
 res.status(500).json({ error: e.message }); 
 } 
 }); 
+app.get("/health", (req, res) => {
+  res.json({ status: "alive", time: new Date().toISOString() });
+});
 app.listen(PORT, () => { 
 console.log(`
 🚀
